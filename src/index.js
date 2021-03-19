@@ -54,6 +54,7 @@ function setStatusOfThemes() {
   newTheme = currentTheme !== Theme.LIGHT ? Theme.LIGHT : Theme.DARK;
 }
 
+
 function createMenuItems(foodCards) {
   return menuTemplate(foodCards);
 }
